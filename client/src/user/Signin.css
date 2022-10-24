@@ -1,0 +1,71 @@
+
+.signin {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 19px;
+  padding-bottom: 25px;
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+.form-signin:hover {
+	transform: scale(1.01);
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-label {
+  margin-bottom: 0.1rem;
+}
+
+.form-group.required .form-label:after {
+  content:"*";
+  color:red;
+}
+
+.semi-strong-text {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.thin-text {
+  font-size: 0.6rem;
+  font-weight: 500;
+}
+
+.btn {
+  border-radius: 8px;
+}
+
+.btn-primary {
+  background-color: #C92EFF;
+  outline: none;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #C92EFF;
+  opacity: 0.9;
+}

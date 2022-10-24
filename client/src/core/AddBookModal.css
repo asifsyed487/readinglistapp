@@ -1,0 +1,14 @@
+.custom {
+    --bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;
+}
+
+.btn-primarys {
+    background: rgba(201, 46, 255, 0.08);
+    color: #C92EFF;
+    outline: none;
+    border: none;
+  }
+  .btn-primarys:hover {
+    background-color: #C92EFF;
+    opacity: 0.9;
+  }

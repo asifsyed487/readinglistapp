@@ -1,0 +1,81 @@
+.posts-details{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 24px;
+    background: transparent;
+}
+
+/* .posts:hover {
+    transform: translate3d(0, -5px, 0);
+    box-shadow: 0 2rem 5rem 0 rgba(0,0,0,.1);
+} */
+
+.card-body-total {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.card-body-top-text {
+    
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+
+}
+
+.card-body-bottom-text {
+    display: flex;
+    /* justify-content: space-around; */
+
+}
+
+.card-body-bottom-text p {
+    margin-right: 20px;
+}
+
+
+card-body-top-text i {
+    margin-right: 2px;
+}
+
+.card-body-top-buttons {
+    
+    flex-grow: 1;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+
+
+
+.card-body-top-buttons button {
+    margin: 10px;
+    
+    background: rgba(201, 46, 255, 0.1);
+    outline: #ECB7FF;
+    border: 1px solid #ECB7FF;
+}
+
+.btn-primary {
+    background: rgba(201, 46, 255, 0.2);
+    outline: #ECB7FF;
+    border: 1px solid #ECB7FF;
+    color: #C92EFF;
+}
+
+.card-body-top-buttons button:hover {
+    background-color: #ECB7FF;
+    outline: #ECB7FF;
+    border: 1px solid #ECB7FF;
+    opacity: 0.9;
+  }
+
+.card-body-top-buttons button i {
+    outline: #C92EFF;
+}
+
